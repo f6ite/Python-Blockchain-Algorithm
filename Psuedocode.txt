@@ -1,0 +1,16 @@
+def firstblock
+	set chain 1
+	set hash 1
+	
+def createblock
+	block = hashno, timecreated, prevhash
+
+def hash
+	rand int
+
+def chainvalid
+	block(prevhash) = (not sure how to phrase this, but the previous blocks hash must match the following block's prevhash variable)
+
+displaychain
+	(need to find a way to output data into something meaningful and easy to read, probably a notepad file)
+	
